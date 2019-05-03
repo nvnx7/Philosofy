@@ -292,7 +292,7 @@ public class QuotesActivity extends AppCompatActivity
         if (clipboardManager != null) {
             ClipData clipData = ClipData.newPlainText("Quote", quote);
             clipboardManager.setPrimaryClip(clipData);
-            Snackbar.make(mQuotesBannerAdView, "Quote Copied.", Snackbar.LENGTH_SHORT).show();
+            Snackbar.make(mAddQuoteFab, "Quote Copied.", Snackbar.LENGTH_SHORT).show();
         }
     }
 
