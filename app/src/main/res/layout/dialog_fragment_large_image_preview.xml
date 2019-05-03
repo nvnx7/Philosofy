@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_dialog_fragment">
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/close_preview_imageview">
+
+        <ImageView
+            android:id="@+id/download_image_preview_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/error_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:visibility="invisible"
+            android:drawableTop="@drawable/ic_error"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:text="@string/error_large_preview" />
+
+        <ProgressBar
+            android:id="@+id/image_loading_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/close_preview_imageview"
+        android:layout_width="@dimen/icons_width"
+        android:layout_height="@dimen/icons_height"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:tint="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_close" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/save_image_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@color/colorPrimary"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/quote_image_fab"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+        app:srcCompat="@drawable/ic_download" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/quote_image_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@color/colorPrimary"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/save_image_fab"
+        app:layout_constraintTop_toTopOf="@+id/save_image_fab"
+        app:srcCompat="@drawable/ic_opening_quote" />
+
+    <TextView
+        android:id="@+id/save_image_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/fjalla_one"
+        android:text="@string/label_save_image"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/save_image_fab"
+        app:layout_constraintStart_toStartOf="@+id/save_image_fab"
+        app:layout_constraintTop_toBottomOf="@+id/save_image_fab" />
+
+    <TextView
+        android:id="@+id/quote_image_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/fjalla_one"
+        android:text="@string/label_quote_image"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/quote_image_fab"
+        app:layout_constraintStart_toStartOf="@+id/quote_image_fab"
+        app:layout_constraintTop_toBottomOf="@+id/quote_image_fab" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

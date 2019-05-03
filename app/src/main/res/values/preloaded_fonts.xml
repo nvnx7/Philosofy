@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya</item>
+        <item>@font/fjalla_one</item>
+        <item>@font/pacifico</item>
+        <item>@font/roboto</item>
+        <item>@font/sahitya</item>
+        <item>@font/slabo_27px</item>
+    </array>
+</resources>

@@ -1,0 +1,2 @@
+include ':app', ':photoeditor'
+project(':photoeditor').projectDir = new File('libs/photoeditor')

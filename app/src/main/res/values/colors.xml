@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eceff1</color>
+    <color name="colorPrimaryDark">#babdbe</color>
+    <color name="colorPrimaryLight">#ffffff</color>
+    <color name="colorAccent">#263238</color>
+
+    <color name="iconColor">#263238</color>
+
+    <color name="color_1">#000000</color>
+    <color name="color_2">#404040</color>
+    <color name="color_3">#808080</color>
+    <color name="color_4">#bfbfbf</color>
+    <color name="color_5">#ffffff</color>
+    <color name="color_6">#3E2723</color>
+    <color name="color_7">#5D4037</color>
+    <color name="color_8">#795548</color>
+    <color name="color_9">#A1887F</color>
+    <color name="color_10">#263238</color>
+    <color name="color_11">#455A64</color>
+    <color name="color_12">#607D8B</color>
+    <color name="color_13">#90A4AE</color>
+    <color name="color_14">#1A237E</color>
+    <color name="color_15">#303F9F</color>
+    <color name="color_16">#3F51B5</color>
+    <color name="color_17">#7986CB</color>
+    <color name="color_18">#311B92</color>
+    <color name="color_19">#512DA8</color>
+    <color name="color_20">#8E24AA</color>
+    <color name="color_21">#E040FB</color>
+    <color name="color_22">#0D47A1</color>
+    <color name="color_23">#1976D2</color>
+    <color name="color_24">#03A9F4</color>
+    <color name="color_25">#004D40</color>
+    <color name="color_26">#00796B</color>
+    <color name="color_27">#00ACC1</color>
+    <color name="color_28">#1B5E20</color>
+    <color name="color_29">#388E3C</color>
+    <color name="color_30">#689F38</color>
+    <color name="color_31">#8BC34A</color>
+    <color name="color_32">#827717</color>
+    <color name="color_33">#9E9D24</color>
+    <color name="color_34">#C0CA33</color>
+    <color name="color_35">#b71c1c</color>
+    <color name="color_36">#D84315</color>
+    <color name="color_37">#F57C00</color>
+    <color name="color_38">#FF9800</color>
+    <color name="color_39">#FFAB00</color>
+    <color name="color_40">#FFD600</color>
+    <color name="color_41">#FFEB3B</color>
+    <color name="color_42">#FFF176</color>
+
+</resources>

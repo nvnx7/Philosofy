@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/label_downloaded_images">
+        <menu>
+            <item
+                android:id="@+id/downloaded"
+                android:icon="@drawable/ic_download"
+                android:title="@string/label_downloaded_images" />
+        </menu>
+    </item>
+
+    <item android:title="@string/label_images_categories">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nature"
+                    android:icon="@drawable/ic_nature"
+                    android:title="@string/nature_category" />
+
+                <item
+                    android:id="@+id/backgrounds"
+                    android:icon="@drawable/ic_backgrounds"
+                    android:title="@string/backgrounds_category" />
+
+                <item
+                    android:id="@+id/people"
+                    android:icon="@drawable/ic_people"
+                    android:title="@string/people_category" />
+
+                <item
+                    android:id="@+id/feelings"
+                    android:icon="@drawable/ic_feelings"
+                    android:title="@string/feelings_category" />
+
+                <item
+                    android:id="@+id/fashion"
+                    android:icon="@drawable/ic_fashion"
+                    android:title="@string/fashion_category" />
+
+                <item
+                    android:id="@+id/travel"
+                    android:icon="@drawable/ic_travel"
+                    android:title="@string/travel_category" />
+
+                <item
+                    android:id="@+id/places"
+                    android:icon="@drawable/ic_places"
+                    android:title="@string/places_category" />
+
+                <item
+                    android:id="@+id/food"
+                    android:icon="@drawable/ic_food"
+                    android:title="@string/food_category" />
+
+                <item
+                    android:id="@+id/health"
+                    android:icon="@drawable/ic_health"
+                    android:title="@string/health_category" />
+
+                <item
+                    android:id="@+id/science"
+                    android:icon="@drawable/ic_science"
+                    android:title="@string/science_category" />
+
+                <item
+                    android:id="@+id/education"
+                    android:icon="@drawable/ic_education"
+                    android:title="@string/education_category" />
+
+                <item
+                    android:id="@+id/computer"
+                    android:icon="@drawable/ic_computer"
+                    android:title="@string/computer_category" />
+
+                <item
+                    android:id="@+id/music"
+                    android:icon="@drawable/ic_music"
+                    android:title="@string/music_category" />
+
+                <item
+                    android:id="@+id/sports"
+                    android:icon="@drawable/ic_sports"
+                    android:title="@string/sports_category" />
+
+                <item
+                    android:id="@+id/business"
+                    android:icon="@drawable/ic_business"
+                    android:title="@string/business_category" />
+
+                <item
+                    android:id="@+id/animals"
+                    android:icon="@drawable/ic_animals"
+                    android:title="@string/animals_category" />
+
+                <item
+                    android:id="@+id/buildings"
+                    android:icon="@drawable/ic_buildings"
+                    android:title="@string/buildings_category" />
+
+                <item
+                    android:id="@+id/industry"
+                    android:icon="@drawable/ic_industry"
+                    android:title="@string/industry_category" />
+
+            </group>
+
+        </menu>
+
+    </item>
+</menu>

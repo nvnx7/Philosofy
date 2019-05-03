@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".DownloadableImagesActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:titleTextColor="@color/colorAccent"
+            android:theme="@style/custom_light_toolbar"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+        <TextView
+            style="@style/toolbar_title_style"
+            android:text="@string/title_activity_downloadable_images"
+            android:textColor="@color/colorAccent"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/image_filter_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:logo="@drawable/ic_pixabay_square"
+            android:theme="@style/custom_light_toolbar"
+            android:longClickable="true"
+            app:title="">
+
+            <TextView
+                android:id="@+id/image_filter_toolbar_title"
+                style="@style/toolbar_title_style"
+                tools:text="NATURE"
+                android:textColor="@color/colorAccent"/>
+
+            <ProgressBar
+                android:id="@+id/load_more_images_progress_bar"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="end"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:visibility="invisible" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_downloadable_images" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/banner_adview_images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ad_id_downloadable_images_activity" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

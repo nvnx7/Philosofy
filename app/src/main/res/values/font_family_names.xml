@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="default_font_families">
+        <item>Roboto</item>
+        <item>Great Vibes</item>
+        <item>Amatic SC</item>
+        <item>Permanent Marker</item>
+        <item>Rajdhani</item>
+        <item>Playfair Display</item>
+        <item>Josefin Sans</item>
+        <item>Pacifico</item>
+        <item>Special Elite</item>
+        <item>Anton</item>
+    </string-array>
+
+    <string-array name="latin_font_families">
+        <!--<item>Charm</item>-->
+        <!--<item>Thasadith</item>-->
+        <!--<item>Major Mono Display</item>-->
+        <!--<item>Aleo</item>-->
+        <!--<item>Staatliches</item>-->
+        <!--<item>Sarabun</item>-->
+        <!--<item>ZCOOL XiaoWei</item>-->
+        <!--<item>B612</item>-->
+        <!--<item>B612 Mono</item>-->
+        <!--<item>ZCOOL QingKe HuangYou</item>-->
+        <!--<item>ZCOOL KuaiLe</item>-->
+        <!--<item>Noto Serif SC</item>-->
+        <!--<item>Noto Serif TC</item>-->
+        <item>Gochi Hand</item>
+        <item>Iceberg</item>
+        <item>Viga</item>
+        <item>Averia Libre</item>
+        <item>Special Elite</item>
+        <item>K2D</item>
+        <item>Chakra Petch</item>
+        <item>Tenor Sans</item>
+        <item>Do Hyeon</item>
+        <item>El Messiri</item>
+        <item>Sirin Stencil</item>
+        <item>Kosugi</item>
+        <item>Meera Inimai</item>
+        <item>Bungee</item>
+        <item>Padauk</item>
+        <item>Suravaram</item>
+        <item>Gamja Flower</item>
+        <item>Mountains of Christmas</item>
+        <item>Charmonman</item>
+        <item>Istok Web</item>
+        <item>Bai Jamjuree</item>
+        <item>Reem Kufi</item>
+        <item>Jaldi</item>
+        <item>Hammersmith One</item>
+        <item>Underdog</item>
+        <item>Libre Barcode 128</item>
+        <item>Dokdo</item>
+        <item>Arya</item>
+        <item>Raleway Dots</item>
+        <item>Merienda</item>
+        <item>Anaheim</item>
+        <item>Biryani</item>
+        <item>Lilita One</item>
+        <item>Amethysta</item>
+        <item>Ruge Boogie</item>
+        <item>Hanalei Fill</item>
+        <item>M PLUS Rounded 1c</item>
+        <item>Combo</item>
+        <item>Della Respira</item>
+        <item>Saira Extra Condensed</item>
+        <item>Over the Rainbow</item>
+        <item>Wellfleet</item>
+        <item>Overpass Mono</item>
+        <item>Risque</item>
+        <item>Wendy One</item>
+        <item>Sree Krushnadevaraya</item>
+        <item>Sue Ellen Francisco</item>
+        <item>Average</item>
+        <item>Noto Sans KR</item>
+        <item>Kosugi Maru</item>
+        <item>Unlock</item>
+        <item>VT323</item>
+        <item>Luckiest Guy</item>
+        <item>Lalezar</item>
+        <item>Petrona</item>
+        <item>Convergence</item>
+        <item>Libre Barcode 39</item>
+        <item>Dr Sugiyama</item>
+        <item>Allerta Stencil</item>
+        <item>Tajawal</item>
+        <item>Henny Penny</item>
+        <item>BioRhyme</item>
+        <item>Keania One</item>
+        <item>Uncial Antiqua</item>
+        <item>Pavanam</item>
+        <item>Euphoria Script</item>
+        <item>Supermercado One</item>
+        <item>Chicle</item>
+        <item>Grand Hotel</item>
+        <item>Miss Fajardose</item>
+        <item>Mukta Vaani</item>
+        <item>Hind Guntur</item>
+        <item>Mitr</item>
+        <item>Mukta Malar</item>
+        <item>Niramit</item>
+        <item>Pridi</item>
+        <item>Mirza</item>
+        <item>Sail</item>
+        <item>Galada</item>
+        <item>Peralta</item>
+        <item>Metamorphous</item>
+        <item>Sawarabi Mincho</item>
+        <item>Antic</item>
+        <item>Purple Purse</item>
+        <item>Amiri</item>
+        <item>UnifrakturCook</item>
+        <item>Clicker Script</item>
+        <item>New Rocker</item>
+        <item>Sedgwick Ave Display</item>
+        <item>Oldenburg</item>
+        <item>Ramaraja</item>
+        <item>Signika Negative</item>
+        <item>Satisfy</item>
+        <item>Libre Barcode 39 Text</item>
+        <item>Notable</item>
+        <item>Iceland</item>
+        <item>Pangolin</item>
+        <item>Podkova</item>
+        <item>Baloo Bhai</item>
+        <item>Molle</item>
+        <item>Vesper Libre</item>
+        <item>Rammetto One</item>
+        <item>Sumana</item>
+        <item>Rasa</item>
+        <item>Ravi Prakash</item>
+        <item>Diplomata SC</item>
+        <item>Encode Sans</item>
+        <item>Karma</item>
+        <item>Atma</item>
+        <item>Encode Sans Condensed</item>
+        <item>Lemonada</item>
+        <item>Athiti</item>
+        <item>Baloo Paaji</item>
+        <item>M PLUS 1p</item>
+        <item>Fahkwang</item>
+        <item>Trykker</item>
+        <item>Coiny</item>
+        <item>Pirata One</item>
+        <item>Ruslan Display</item>
+        <item>Milonga</item>
+        <item>Mada</item>
+        <item>Tulpen One</item>
+        <item>Dancing Script</item>
+        <item>Playfair Display SC</item>
+        <item>Mandali</item>
+        <item>Noto Serif KR</item>
+        <item>Seymour One</item>
+        <item>Buda</item>
+        <item>Princess Sofia</item>
+        <item>Bahiana</item>
+        <item>Baloo Da</item>
+        <item>Lily Script One</item>
+        <item>Fugaz One</item>
+        <item>Happy Monkey</item>
+        <item>Diplomata</item>
+        <item>Vollkorn SC</item>
+        <item>Prosto One</item>
+        <item>Domine</item>
+        <item>Noto Sans JP</item>
+        <item>Barrio</item>
+        <item>Amarante</item>
+        <item>Sofia</item>
+        <item>Yeseva One</item>
+        <item>Crushed</item>
+        <item>Bonbon</item>
+        <item>Cormorant Unicase</item>
+        <item>Kite One</item>
+        <item>Rouge Script</item>
+        <item>Katibeh</item>
+        <item>Averia Sans Libre</item>
+        <item>Jim Nightshade</item>
+        <item>Rubik Mono One</item>
+        <item>Prociono</item>
+        <item>Caveat</item>
+        <item>Lovers Quarrel</item>
+        <item>Cormorant</item>
+        <item>Mr De Haviland</item>
+        <item>Sarpanch</item>
+        <item>Righteous</item>
+        <item>Spirax</item>
+        <item>Manuale</item>
+        <item>Nova Round</item>
+        <item>Codystar</item>
+        <item>Oranienbaum</item>
+        <item>David Libre</item>
+        <item>Changa</item>
+        <item>Overpass</item>
+        <item>Trocchi</item>
+        <item>Kanit</item>
+        <item>Patua One</item>
+        <item>Mystery Quest</item>
+        <item>Sawarabi Gothic</item>
+        <item>Courgette</item>
+        <item>Patrick Hand SC</item>
+        <item>Nanum Pen Script</item>
+        <item>Buenard</item>
+        <item>Mina</item>
+        <item>Italiana</item>
+        <item>Chela One</item>
+        <item>Barlow Condensed</item>
+        <item>Inika</item>
+        <item>Prompt</item>
+        <item>Concert One</item>
+        <item>Signika</item>
+        <item>Orbitron</item>
+        <item>Hind Siliguri</item>
+        <item>Herr Von Muellerhoff</item>
+        <item>Glass Antiqua</item>
+        <item>Libre Franklin</item>
+        <item>Varela Round</item>
+        <item>Amita</item>
+        <item>Petit Formal Script</item>
+        <item>Warnes</item>
+        <item>Saira</item>
+        <item>Holtwood One SC</item>
+        <item>Heebo</item>
+        <item>Marko One</item>
+        <item>Carter One</item>
+        <item>Autour One</item>
+        <item>Lobster</item>
+        <item>Russo One</item>
+        <item>Barlow Semi Condensed</item>
+        <item>Jomhuria</item>
+        <item>Electrolize</item>
+        <item>Kodchasan</item>
+        <item>ABeeZee</item>
+        <item>Artifika</item>
+        <item>Ruda</item>
+        <item>Noto Serif JP</item>
+        <item>Marck Script</item>
+        <item>Cormorant Infant</item>
+        <item>Fredericka the Great</item>
+        <item>Timmana</item>
+        <item>Fira Sans</item>
+        <item>Faustina</item>
+        <item>IM Fell English SC</item>
+        <item>Spectral SC</item>
+        <item>Leckerli One</item>
+        <item>Arizonia</item>
+        <item>Hind</item>
+        <item>Play</item>
+        <item>Fira Mono</item>
+        <item>Press Start 2P</item>
+        <item>Expletus Sans</item>
+        <item>Bungee Inline</item>
+        <item>Shadows Into Light</item>
+        <item>Piedra</item>
+        <item>Alegreya Sans SC</item>
+        <item>Racing Sans One</item>
+        <item>Caesar Dressing</item>
+        <item>Miltonian</item>
+        <item>Barlow</item>
+        <item>Six Caps</item>
+        <item>Eagle Lake</item>
+        <item>Baloo Bhaina</item>
+        <item>Oxygen</item>
+        <item>Encode Sans Semi Expanded</item>
+        <item>Nova Cut</item>
+        <item>Quantico</item>
+        <item>PT Serif Caption</item>
+        <item>Life Savers</item>
+        <item>Hind Vadodara</item>
+        <item>Spinnaker</item>
+        <item>Mate SC</item>
+        <item>Fira Sans Extra Condensed</item>
+        <item>Bellefair</item>
+        <item>Gruppo</item>
+        <item>Slabo 13px</item>
+        <item>Radley</item>
+        <item>Engagement</item>
+        <item>Playball</item>
+        <item>Junge</item>
+        <item>Changa One</item>
+        <item>Hanalei</item>
+        <item>Oleo Script Swash Caps</item>
+        <item>Miltonian Tattoo</item>
+        <item>Arbutus</item>
+        <item>Redressed</item>
+        <item>Mogra</item>
+        <item>Michroma</item>
+        <item>Scope One</item>
+        <item>Suranna</item>
+        <item>Kumar One</item>
+        <item>Jacques Francois Shadow</item>
+        <item>Jura</item>
+        <item>Denk One</item>
+        <item>Itim</item>
+        <item>Chonburi</item>
+        <item>Caudex</item>
+        <item>Lateef</item>
+        <item>Actor</item>
+        <item>Nanum Myeongjo</item>
+        <item>Nanum Brush Script</item>
+        <item>Rokkitt</item>
+        <item>Yesteryear</item>
+        <item>Monda</item>
+        <item>Germania One</item>
+        <item>PT Sans Caption</item>
+        <item>Passero One</item>
+        <item>Limelight</item>
+        <item>The Girl Next Door</item>
+        <item>Baloo</item>
+        <item>Roboto</item>
+        <item>Macondo</item>
+        <item>Kirang Haerang</item>
+        <item>Nosifer</item>
+        <item>IBM Plex Sans</item>
+        <item>IM Fell Double Pica</item>
+        <item>Roboto Condensed</item>
+        <item>Allura</item>
+        <item>Ubuntu Mono</item>
+        <item>Average Sans</item>
+        <item>Sevillana</item>
+        <item>Oxygen Mono</item>
+        <item>Neucha</item>
+        <item>Merriweather Sans</item>
+        <item>Nothing You Could Do</item>
+        <item>IBM Plex Sans Condensed</item>
+        <item>Kurale</item>
+        <item>Arsenal</item>
+        <item>Nova Flat</item>
+        <item>Bree Serif</item>
+        <item>Trochut</item>
+        <item>Kaushan Script</item>
+        <item>Stalemate</item>
+        <item>Rum Raisin</item>
+        <item>Ruthie</item>
+        <item>Yellowtail</item>
+        <item>Fauna One</item>
+        <item>Archivo</item>
+        <item>Niconne</item>
+        <item>Paytone One</item>
+        <item>Nova Oval</item>
+        <item>Sarala</item>
+        <item>Nunito Sans</item>
+        <item>Orienta</item>
+        <item>Alice</item>
+        <item>Work Sans</item>
+        <item>La Belle Aurore</item>
+        <item>Maitree</item>
+        <item>Emilys Candy</item>
+        <item>Cousine</item>
+        <item>Gothic A1</item>
+        <item>Noto Sans TC</item>
+        <item>Arimo</item>
+        <item>Alex Brush</item>
+        <item>Candal</item>
+        <item>Bentham</item>
+        <item>Elsie Swash Caps</item>
+        <item>Federo</item>
+        <item>Nanum Gothic</item>
+        <item>Joti One</item>
+        <item>Laila</item>
+        <item>Alef</item>
+        <item>Assistant</item>
+        <item>Exo</item>
+        <item>Calligraffitti</item>
+        <item>Balthazar</item>
+        <item>Emblema One</item>
+        <item>Romanesco</item>
+        <item>Roboto Mono</item>
+        <item>Margarine</item>
+        <item>Brawler</item>
+        <item>Cabin Condensed</item>
+        <item>Rosarivo</item>
+        <item>Rye</item>
+        <item>Noto Sans</item>
+        <item>Capriola</item>
+        <item>Pacifico</item>
+        <item>Yrsa</item>
+        <item>Forum</item>
+        <item>Cuprum</item>
+        <item>Sniglet</item>
+        <item>Sahitya</item>
+        <item>Basic</item>
+        <item>Delius Swash Caps</item>
+        <item>Damion</item>
+        <item>Linden Hill</item>
+        <item>Just Me Again Down Here</item>
+        <item>Seaweed Script</item>
+        <item>Arapey</item>
+        <item>Shanti</item>
+        <item>Josefin Sans</item>
+        <item>Quando</item>
+        <item>Lustria</item>
+        <item>Felipa</item>
+        <item>Londrina Sketch</item>
+        <item>PT Sans</item>
+        <item>Advent Pro</item>
+        <item>Bilbo Swash Caps</item>
+        <item>Quicksand</item>
+        <item>Pragati Narrow</item>
+        <item>Source Sans Pro</item>
+        <item>Zilla Slab</item>
+        <item>BenchNine</item>
+        <item>Srisakdi</item>
+        <item>Alegreya Sans</item>
+        <item>Waiting for the Sunrise</item>
+        <item>Cagliostro</item>
+        <item>Modern Antiqua</item>
+        <item>Khula</item>
+        <item>Meie Script</item>
+        <item>Mrs Saint Delafield</item>
+        <item>Khand</item>
+        <item>Voltaire</item>
+        <item>Kenia</item>
+        <item>Bad Script</item>
+        <item>Sancreek</item>
+        <item>Mr Dafoe</item>
+        <item>Gilda Display</item>
+        <item>Salsa</item>
+        <item>Berkshire Swash</item>
+        <item>Kranky</item>
+        <item>Delius Unicase</item>
+        <item>Vollkorn</item>
+        <item>Butterfly Kids</item>
+        <item>Contrail One</item>
+        <item>IBM Plex Serif</item>
+        <item>Poiret One</item>
+        <item>Qwigley</item>
+        <item>Crafty Girls</item>
+        <item>Sunshiney</item>
+        <item>Dosis</item>
+        <item>Exo 2</item>
+        <item>Dorsa</item>
+        <item>Montaga</item>
+        <item>Almendra SC</item>
+        <item>Handlee</item>
+        <item>Syncopate</item>
+        <item>Roboto Slab</item>
+        <item>Saira Semi Condensed</item>
+        <item>Lekton</item>
+        <item>Cinzel Decorative</item>
+        <item>Tillana</item>
+        <item>Song Myung</item>
+        <item>Noto Serif</item>
+        <item>Yanone Kaffeesatz</item>
+        <item>Lobster Two</item>
+        <item>Adamina</item>
+        <item>Marmelad</item>
+        <item>Playfair Display</item>
+        <item>Tangerine</item>
+        <item>Share</item>
+        <item>Fenix</item>
+        <item>Slackey</item>
+        <item>Space Mono</item>
+        <item>Kalam</item>
+        <item>Poppins</item>
+        <item>Amaranth</item>
+        <item>Marcellus</item>
+        <item>Londrina Solid</item>
+        <item>Mako</item>
+        <item>Encode Sans Semi Condensed</item>
+        <item>Medula One</item>
+        <item>Nixie One</item>
+        <item>Baloo Thambi</item>
+        <item>Ledger</item>
+        <item>Nunito</item>
+        <item>Schoolbell</item>
+        <item>Gabriela</item>
+        <item>Belleza</item>
+        <item>Ubuntu Condensed</item>
+        <item>Zeyada</item>
+        <item>Baumans</item>
+        <item>Original Surfer</item>
+        <item>Marvel</item>
+        <item>Acme</item>
+        <item>Pontano Sans</item>
+        <item>Rajdhani</item>
+        <item>Share Tech Mono</item>
+        <item>Mate</item>
+        <item>Great Vibes</item>
+        <item>Noticia Text</item>
+        <item>Sansita</item>
+        <item>Rosario</item>
+        <item>Inder</item>
+        <item>Neuton</item>
+        <item>Italianno</item>
+        <item>Wire One</item>
+        <item>Lusitana</item>
+        <item>Cantata One</item>
+        <item>PT Serif</item>
+        <item>Nova Square</item>
+        <item>Lancelot</item>
+        <item>Open Sans</item>
+        <item>Merriweather</item>
+        <item>Bigelow Rules</item>
+        <item>Black Ops One</item>
+        <item>Bubblegum Sans</item>
+        <item>Ribeye Marrow</item>
+        <item>Dynalight</item>
+    </string-array>
+
+    <string-array name="devanagari_font_families">
+        <item>Jaldi</item>
+        <item>Arya</item>
+        <item>Biryani</item>
+        <item>Vesper Libre</item>
+        <item>Sumana</item>
+        <item>Karma</item>
+        <item>Sarpanch</item>
+        <item>Amita</item>
+        <item>Hind</item>
+        <item>Baloo</item>
+        <item>Kurale</item>
+        <item>Sarala</item>
+        <item>Laila</item>
+        <item>Noto Sans</item>
+        <item>Sahitya</item>
+        <item>Pragati Narrow</item>
+        <item>Khula</item>
+        <item>Khand</item>
+        <item>Tillana</item>
+        <item>Kalam</item>
+        <item>Poppins</item>
+        <item>Rajdhani</item>
+        <item>Martel</item>
+        <item>Martel Sans</item>
+        <item>Dekko</item>
+        <item>Palanquin</item>
+        <item>Kadwa</item>
+        <item>Asar</item>
+        <item>Teko</item>
+        <item>Rhodium Libre</item>
+        <item>Glegoo</item>
+        <item>Rozha One</item>
+        <item>Cambay</item>
+        <item>Palanquin Dark</item>
+        <item>Sura</item>
+        <item>Yantramanav</item>
+        <item>Ranga</item>
+        <item>Mukta</item>
+        <item>Amiko</item>
+        <item>Inknut Antiqua</item>
+        <item>Modak</item>
+        <item>Halant</item>
+        <item>Eczar</item>
+        <item>Yatra One</item>
+    </string-array>
+    
+    <string-array name="arabic_font_families">
+        <item>El Messiri</item>
+        <item>Reem Kufi</item>
+        <item>Lalezar</item>
+        <item>Tajawal</item>
+        <item>Mirza</item>
+        <item>Amiri</item>
+        <item>Lemonada</item>
+        <item>Mada</item>
+        <item>Katibeh</item>
+        <item>Changa</item>
+        <item>Jomhuria</item>
+        <item>Lateef</item>
+        <item>Cairo</item>
+        <item>Rakkas</item>
+        <item>Harmattan</item>
+        <item>Scheherazade</item>
+        <item>Baloo Bhaijaan</item>
+        <item>Aref Ruqaa</item>
+        <item>Markazi Text</item>
+    </string-array>
+
+    <string-array name="chinese_font_families">
+        <item>ZCOOL XiaoWei</item>
+        <item>ZCOOL QingKe HuangYou</item>
+        <item>ZCOOL KuaiLe</item>
+        <item>Noto Serif SC</item>
+        <item>Noto Sans SC</item>
+
+        <!-- Traditional chinese-->
+        <item>Noto Serif TC</item>
+        <item>Noto Sans TC</item>
+    </string-array>
+
+    <string-array name="japanese_font_families">
+        <item>Noto Serif SC</item>
+        <item>Noto Serif TC</item>
+        <item>Kosugi</item>
+        <item>M PLUS Rounded 1c</item>
+        <item>Kosugi Maru</item>
+        <item>Sawarabi Mincho</item>
+        <item>M PLUS 1p</item>
+        <item>Noto Sans JP</item>
+        <item>Sawarabi Gothic</item>
+        <item>Noto Serif JP</item>
+        <item>Noto Sans TC</item>
+        <item>Noto Sans SC</item>
+    </string-array>
+
+    <string-array name="korean_font_families">
+        <item>Do Hyeon</item>
+        <item>Gamja Flower</item>
+        <item>Dokdo</item>
+        <item>Noto Sans KR</item>
+        <item>Noto Serif KR</item>
+        <item>Nanum Pen Script</item>
+        <item>Nanum Myeongjo</item>
+        <item>Nanum Brush Script</item>
+        <item>Kirang Haerang</item>
+        <item>Gothic A1</item>
+        <item>Nanum Gothic</item>
+        <item>Song Myung</item>
+        <item>Gugi</item>
+        <item>Yeon Sung</item>
+        <item>Nanum Gothic Coding</item>
+        <item>Poor Story</item>
+        <item>Stylish</item>
+        <item>East Sea Dokdo</item>
+        <item>Cute Font</item>
+        <item>Gaegu</item>
+        <item>Jua</item>
+        <item>Hi Melody</item>
+        <item>Sunflower</item>
+        <item>Black Han Sans</item>
+        <item>Black And White Picture</item>
+    </string-array>
+    
+    <string-array name="cyrillic_font_families">
+        <item>Noto Serif SC</item>
+        <item>Noto Serif TC</item>
+        <item>Tenor Sans</item>
+        <item>El Messiri</item>
+        <item>Kosugi</item>
+        <item>Istok Web</item>
+        <item>Underdog</item>
+        <item>M PLUS Rounded 1c</item>
+        <item>Kosugi Maru</item>
+        <item>Pangolin</item>
+        <item>Podkova</item>
+        <item>M PLUS 1p</item>
+        <item>Ruslan Display</item>
+        <item>Playfair Display SC</item>
+        <item>Seymour One</item>
+        <item>Vollkorn SC</item>
+        <item>Prosto One</item>
+        <item>Yeseva One</item>
+        <item>Cormorant Unicase</item>
+        <item>Rubik Mono One</item>
+        <item>Caveat</item>
+        <item>Cormorant</item>
+        <item>Oranienbaum</item>
+        <item>Sawarabi Gothic</item>
+        <item>Lobster</item>
+        <item>Russo One</item>
+        <item>Marck Script</item>
+        <item>Cormorant Infant</item>
+        <item>Fira Sans</item>
+        <item>Spectral SC</item>
+        <item>Play</item>
+        <item>Fira Mono</item>
+        <item>Press Start 2P</item>
+        <item>Alegreya Sans SC</item>
+        <item>PT Serif Caption</item>
+        <item>Fira Sans Extra Condensed</item>
+        <item>Jura</item>
+        <item>PT Sans Caption</item>
+        <item>Roboto</item>
+        <item>IBM Plex Sans</item>
+        <item>Roboto Condensed</item>
+        <item>Ubuntu Mono</item>
+        <item>Neucha</item>
+        <item>Kurale</item>
+        <item>Arsenal</item>
+        <item>Alice</item>
+        <item>Cousine</item>
+        <item>Arimo</item>
+        <item>Roboto Mono</item>
+        <item>Noto Sans</item>
+        <item>Pacifico</item>
+        <item>Forum</item>
+        <item>Cuprum</item>
+        <item>PT Sans</item>
+        <item>Source Sans Pro</item>
+        <item>Alegreya Sans</item>
+        <item>Bad Script</item>
+        <item>Vollkorn</item>
+        <item>IBM Plex Serif</item>
+        <item>Poiret One</item>
+        <item>Exo 2</item>
+        <item>Roboto Slab</item>
+        <item>Noto Serif</item>
+        <item>Yanone Kaffeesatz</item>
+        <item>Marmelad</item>
+        <item>Playfair Display</item>
+        <item>Ledger</item>
+        <item>Gabriela</item>
+        <item>Ubuntu Condensed</item>
+        <item>PT Serif</item>
+        <item>Open Sans</item>
+        <item>Merriweather</item>
+        <item>Tinos</item>
+        <item>Scada</item>
+        <item>Alegreya SC</item>
+        <item>Philosopher</item>
+        <item>EB Garamond</item>
+        <item>Oswald</item>
+        <item>Open Sans Condensed</item>
+        <item>Anonymous Pro</item>
+        <item>Ubuntu</item>
+        <item>Montserrat</item>
+        <item>Spectral</item>
+        <item>PT Mono</item>
+        <item>Didact Gothic</item>
+        <item>Fira Sans Condensed</item>
+        <item>Kelly Slab</item>
+        <item>Comfortaa</item>
+        <item>Alegreya</item>
+        <item>Prata</item>
+        <item>Lora</item>
+        <item>Cormorant Garamond</item>
+        <item>Amatic SC</item>
+        <item>PT Sans Narrow</item>
+        <item>Old Standard TT</item>
+        <item>Andika</item>
+        <item>Noto Sans SC</item>
+        <item>Stalinist One</item>
+        <item>Rubik</item>
+        <item>Pattaya</item>
+        <item>Montserrat Alternates</item>
+        <item>Cormorant SC</item>
+        <item>IBM Plex Mono</item>
+    </string-array>
+
+    <string-array name="tamil_font_families">
+        <item>Meera Inimai</item>
+        <item>Pavanam</item>
+        <item>Mukta Malar</item>
+        <item>Coiny</item>
+        <item>Baloo Thambi</item>
+        <item>Catamaran</item>
+        <item>Kavivanar</item>
+        <item>Hind Madurai</item>
+        <item>Arima Madurai</item>
+    </string-array>
+
+    <string-array name="telugu_font_families">
+        <item>Suravaram</item>
+        <item>Sree Krushnadevaraya</item>
+        <item>Hind Guntur</item>
+        <item>Ramaraja</item>
+        <item>Ravi Prakash</item>
+        <item>Mandali</item>
+        <item>Timmana</item>
+        <item>Suranna</item>
+        <item>Chathura</item>
+        <item>Mallanna</item>
+        <item>Dhurjati</item>
+        <item>Gurajada</item>
+        <item>NTR</item>
+        <item>Baloo Tammudu</item>
+        <item>Ramabhadra</item>
+        <item>Gidugu</item>
+        <item>Tenali Ramakrishna</item>
+        <item>Lakki Reddy</item>
+        <item>Peddana</item>
+
+    </string-array>
+
+    <string-array name="bengali_font_families">
+        <item>Galada</item>
+        <item>Atma</item>
+        <item>Baloo Da</item>
+        <item>Mina</item>
+        <item>Hind Siliguri</item>
+    </string-array>
+
+</resources>

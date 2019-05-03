@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/text_bottom_sheet"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="216dp"
+    app:behavior_hideable="false"
+    android:background="@drawable/backgrond_bottom_sheet_round"
+    app:behavior_peekHeight="@dimen/bottom_sheet_peek_height"
+    app:layout_behavior="com.philosofy.nvn.philosofy.custom.NonSwipeableBottomSheetBehavior">
+
+    <com.philosofy.nvn.philosofy.custom.NonSwipeableViewPager
+        android:id="@+id/text_controls_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

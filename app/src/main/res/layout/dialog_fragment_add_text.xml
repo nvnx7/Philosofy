@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dialog_fragment">
+
+    <EditText
+        android:id="@+id/quote_edittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="8dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/hint_quote"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textCursorDrawable="@null"
+        android:textSize="18sp"
+        android:theme="@style/custom_control_theme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/save_author_text_input_layout" />
+
+    <ImageView
+        android:id="@+id/done_write_imageview"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:tint="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_done" />
+
+    <ImageView
+        android:id="@+id/close_write_imageview"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:tint="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/done_write_imageview"
+        app:srcCompat="@drawable/ic_close" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/save_author_text_input_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:minWidth="150dp"
+        android:theme="@style/custom_control_theme"
+        android:visibility="invisible"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="@+id/save_quote_checkbox"
+        app:layout_constraintTop_toBottomOf="@+id/save_quote_checkbox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/save_author_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/hint_quote_author"
+            android:theme="@style/custom_control_theme"
+            tools:text="Author" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/save_quote_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/label_save_quote_checkbox"
+        android:textStyle="bold"
+        android:theme="@style/custom_control_theme"
+        app:layout_constraintStart_toStartOf="@+id/close_write_imageview"
+        app:layout_constraintTop_toBottomOf="@+id/close_write_imageview" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/save_category_text_input_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:minWidth="150dp"
+        android:theme="@style/custom_control_theme"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/save_author_text_input_layout"
+        app:layout_constraintTop_toTopOf="@+id/save_author_text_input_layout">
+
+        <AutoCompleteTextView
+            android:id="@+id/save_category_autotextview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/hint_quote_category"
+            android:theme="@style/custom_control_theme"
+            tools:text="Category" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

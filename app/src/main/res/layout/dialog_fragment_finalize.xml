@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_dialog_fragment">
+
+
+    <ImageView
+        android:id="@+id/close_finalize_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:tint="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_close" />
+
+    <FrameLayout
+        android:id="@+id/finalized_image_framelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/close_finalize_imageview">
+
+        <ImageView
+            android:id="@+id/finalized_image_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@drawable/stock_img_3" />
+
+        <ProgressBar
+            android:id="@+id/finalizing_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/colorAccent"
+            android:visibility="invisible"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/save_edited_image_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:theme="@style/custom_control_theme"
+        android:tint="@color/colorPrimary"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/share_edited_image_fab"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finalized_image_framelayout"
+        app:srcCompat="@drawable/ic_download" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/share_edited_image_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:theme="@style/custom_control_theme"
+        android:tint="@color/colorPrimary"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/save_edited_image_fab"
+        app:layout_constraintTop_toTopOf="@+id/save_edited_image_fab"
+        app:srcCompat="@drawable/ic_share" />
+
+    <TextView
+        android:id="@+id/save_finalized_image_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/fjalla_one"
+        android:text="@string/label_save_image"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/save_edited_image_fab"
+        app:layout_constraintStart_toStartOf="@+id/save_edited_image_fab"
+        app:layout_constraintTop_toBottomOf="@+id/save_edited_image_fab"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/share_finalized_image_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/fjalla_one"
+        android:text="@string/label_share_quote_image"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/share_edited_image_fab"
+        app:layout_constraintStart_toStartOf="@+id/share_edited_image_fab"
+        app:layout_constraintTop_toBottomOf="@+id/share_edited_image_fab" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

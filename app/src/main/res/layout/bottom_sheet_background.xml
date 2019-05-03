@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background_bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="216dp"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="@dimen/bottom_sheet_peek_height"
+    android:background="@drawable/backgrond_bottom_sheet_round"
+    app:layout_behavior="com.philosofy.nvn.philosofy.custom.NonSwipeableBottomSheetBehavior"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/more_background_images_imageview"
+        android:layout_width="@dimen/icons_width"
+        android:layout_height="@dimen/icons_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:tint="@color/iconColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cart" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/stock_images_rv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rotate_background_imageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/more_background_images_imageview"
+        app:layout_constraintTop_toTopOf="@+id/more_background_images_imageview"
+        tools:itemCount="2" />
+
+    <ImageView
+        android:id="@+id/rotate_background_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/more_background_images_imageview"
+        app:layout_constraintTop_toBottomOf="@+id/more_background_images_imageview"
+        app:srcCompat="@drawable/ic_rotate_90" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

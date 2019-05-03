@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="216dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="4dp"
+        android:background="@color/colorPrimaryLight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/downloadable_font_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="28sp"
+            tools:text="This is font." />
+
+        <TextView
+            android:id="@+id/loading_indicator_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="@string/font_loading"
+            android:visibility="invisible"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/font_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            tools:text="Font Name"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layoutDirection="rtl"
+            android:background="@color/colorAccent">
+
+            <ImageView
+                android:id="@+id/favorite_font_imageview"
+                android:layout_width="@dimen/icons_width"
+                android:layout_height="@dimen/icons_height"
+                app:srcCompat="@drawable/ic_not_favorite"
+                android:layout_margin="8dp"/>
+
+            <ImageView
+                android:id="@+id/write_with_font_imageview"
+                android:layout_width="@dimen/icons_width"
+                android:layout_height="@dimen/icons_height"
+                android:tint="@color/colorPrimary"
+                android:layout_margin="8dp"
+                app:srcCompat="@drawable/ic_pen"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

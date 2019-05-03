@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="216dp">
+
+    <ImageView
+        android:id="@+id/more_colors_imageview"
+        android:layout_width="@dimen/icons_width"
+        android:layout_height="@dimen/icons_height"
+        android:layout_marginTop="20dp"
+        android:tint="@color/iconColor"
+        app:layout_constraintStart_toStartOf="@+id/more_fonts_imageview"
+        app:layout_constraintTop_toBottomOf="@+id/more_fonts_imageview"
+        app:srcCompat="@drawable/ic_color_lens" />
+
+    <ImageView
+        android:id="@+id/more_fonts_imageview"
+        android:layout_width="@dimen/icons_width"
+        android:layout_height="@dimen/icons_height"
+        android:layout_marginTop="16dp"
+        android:tint="@color/iconColor"
+        app:layout_constraintStart_toStartOf="@+id/add_text_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/add_text_image_view"
+        app:srcCompat="@drawable/ic_cart" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/text_colors_rv1"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/current_text_color_imageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/more_colors_imageview"
+        app:layout_constraintTop_toTopOf="@+id/more_colors_imageview"
+        tools:listitem="@layout/itemview_colors"
+        tools:orientation="horizontal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fonts_rv1"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/more_fonts_imageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/more_fonts_imageview"
+        app:layout_constraintTop_toTopOf="@+id/more_fonts_imageview"
+        app:layout_constraintVertical_bias="0.7"
+        tools:listitem="@layout/itemview_fonts"
+        tools:orientation="horizontal" />
+
+    <ImageView
+        android:id="@+id/text_size_imageview"
+        android:layout_width="@dimen/icons_width"
+        android:layout_height="@dimen/icons_height"
+        android:layout_marginStart="32dp"
+        android:tint="@color/iconColor"
+        app:layout_constraintStart_toEndOf="@+id/add_text_image_view"
+        app:layout_constraintTop_toTopOf="@+id/add_text_image_view"
+        app:srcCompat="@drawable/ic_text_size" />
+
+    <SeekBar
+        android:id="@+id/text_size_seek_bar"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="16dp"
+        android:progress="18"
+        android:theme="@style/custom_control_theme"
+        app:layout_constraintBottom_toBottomOf="@+id/text_size_imageview"
+        app:layout_constraintEnd_toStartOf="@+id/more_controls_imageview"
+        app:layout_constraintStart_toEndOf="@+id/text_size_imageview"
+        app:layout_constraintTop_toTopOf="@+id/text_size_imageview" />
+
+    <ImageView
+        android:id="@+id/add_text_image_view"
+        android:layout_width="@dimen/icons_width"
+        android:layout_height="@dimen/icons_height"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:tint="@color/iconColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_pen" />
+
+    <ImageView
+        android:id="@+id/more_controls_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/background_round"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_size_imageview"
+        app:srcCompat="@drawable/ic_forward_arrow" />
+
+    <ImageView
+        android:id="@+id/current_text_color_imageview"
+        android:layout_width="@dimen/icons_width"
+        android:layout_height="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/more_colors_imageview"
+        app:layout_constraintStart_toStartOf="@+id/more_colors_imageview"
+        app:layout_constraintTop_toBottomOf="@+id/more_colors_imageview"
+        app:srcCompat="@color/iconColor" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

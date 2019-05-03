@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="qod_notif_by_default">true</bool>
+    <bool name="images_safesearch_default">true</bool>
+    <bool name="save_shared_default">true</bool>
+
+    <bool name="default_editors_choice">false</bool>
+</resources>

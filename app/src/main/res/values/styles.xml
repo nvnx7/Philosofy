@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#fafafa</item>
+        <item name="colorPrimaryDark">#eceff1</item>
+        <item name="colorAccent">#263238</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="card_labels" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:fontFamily">@font/fjalla_one</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="EditorTheme" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+    <style name="HiddenTitleTheme" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <!-- Toolbar title text theme -->
+    <style name="toolbar_title_style" parent="@style/TextAppearance.AppCompat.Large">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:fontFamily">@font/fjalla_one</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="custom_dark_toolbar" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+    </style>
+
+    <style name="custom_light_toolbar" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+    </style>
+
+    <style name="custom_control_theme" parent="AppTheme">
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+</resources>

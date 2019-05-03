@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/image_bottom_sheet"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="216dp"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="@dimen/bottom_sheet_peek_height"
+    android:background="@drawable/backgrond_bottom_sheet_round"
+    app:layout_behavior="com.philosofy.nvn.philosofy.custom.NonSwipeableBottomSheetBehavior" >
+
+    <ImageView
+        android:id="@+id/add_image_imageview"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="56dp"
+        android:tint="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_tool_photo" />
+
+    <SeekBar
+        android:id="@+id/image_size_seekbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="32dp"
+        android:progress="322"
+        android:max="1500"
+        android:theme="@style/custom_control_theme"
+        app:layout_constraintBottom_toBottomOf="@+id/image_size_imageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_size_imageview"
+        app:layout_constraintTop_toTopOf="@+id/image_size_imageview" />
+
+    <ImageView
+        android:id="@+id/image_size_imageview"
+        android:layout_width="@dimen/icons_width"
+        android:layout_height="@dimen/icons_height"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toEndOf="@+id/add_image_imageview"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_photo_size" />
+
+    <ImageView
+        android:id="@+id/image_opacity_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/image_size_imageview"
+        app:layout_constraintTop_toBottomOf="@+id/image_size_imageview"
+        app:srcCompat="@drawable/ic_opacity" />
+
+    <SeekBar
+        android:id="@+id/image_opacity_seekbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="32dp"
+        android:progress="235"
+        android:max="235"
+        android:theme="@style/custom_control_theme"
+        app:layout_constraintBottom_toBottomOf="@+id/image_opacity_imageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_opacity_imageview"
+        app:layout_constraintTop_toTopOf="@+id/image_opacity_imageview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,500 @@
+<resources>
+    <string name="app_name">Philosofy</string>
+
+    <!-- Activity titles -->
+    <string name="title_activity_backgrounds">Quote Background</string>
+    <string name="title_activity_quotes">Quotes</string>
+    <string name="title_activity_downloadable_images">Quote Background</string>
+    <string name="title_activity_downloadable_fonts">Fonts</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_help">Help</string>
+
+    <!-- Main screen strings -->
+    <string name="label_editor_cardview">Editor</string>
+    <string name="label_photos_cardview">Photos</string>
+    <string name="label_camera_cardview">Camera</string>
+    <string name="label_colors_cardview">Colors</string>
+    <string name="label_download_cardview">Download</string>
+    <string name="labels_quotes_cardview">Quotes</string>
+    <string name="share_app_title">Thank you for sharing this app!</string>
+
+    <!-- Menu options strings -->
+    <string name="action_about">About</string>
+    <string name="action_help">Help</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Ad related  strings -->
+
+    <string name="app_id_admob">ca-app-pub-7081714491564041~3997296398</string>
+    <string name="ad_id_main_activity">ca-app-pub-7081714491564041/3857695597</string>
+    <string name="ad_id_quotes_activity">ca-app-pub-7081714491564041/1956869684</string>
+    <string name="ad_id_downloadable_fonts_activity">ca-app-pub-7081714491564041/8713849720</string>
+    <string name="ad_id_downloadable_images_activity">ca-app-pub-7081714491564041/9480136487</string>
+
+    <!-- For Testing -->
+    <!--<string name="app_id_admob">ca-app-pub-3940256099942544~3347511713</string>-->
+    <!--<string name="ad_id_main_activity">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="ad_id_quotes_activity">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="ad_id_downloadable_fonts_activity">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="ad_id_downloadable_images_activity">ca-app-pub-3940256099942544/6300978111</string>-->
+
+    <!-- Tools name strings -->
+    <string name="text_tool_name">Text</string>
+    <string name="image_tool_name">Image</string>
+    <string name="background_tool_name">Background</string>
+    <string name="effects_tool_name">Effects</string>
+    <string name="quote_tool_name">Quote</string>
+
+    <!-- Shadow controls strings -->
+    <string name="text_shadow">Shadow</string>
+    <string name="shadow_x_pos">X</string>
+    <string name="shadow_y_pos">Y</string>
+
+    <string name="color_chooser_title">Choose Color</string>
+    <string name="cancel_color_chooser">Cancel</string>
+    <string name="done_color_chooser">Done</string>
+
+    <string name="no_internet_quote">\"We are all now connected by\nthe Internet, like neurons
+        in a\ngiant brain.\"\n-Stephen Hawking</string>
+    <string name="reload">RELOAD</string>
+
+    <string name="error_large_preview">Something went wrong.\nTry checking your connection.</string>
+
+    <!-- Downloadable image categories -->
+    <string name="nature_category">Nature</string>
+    <string name="backgrounds_category">Backgrounds</string>
+    <string name="science_category">Science</string>
+    <string name="education_category">Education</string>
+    <string name="computer_category">Computer</string>
+    <string name="people_category">People</string>
+    <string name="feelings_category">Feelings</string>
+    <string name="fashion_category">Fashion</string>
+    <string name="travel_category">Travel</string>
+    <string name="places_category">Places</string>
+    <string name="food_category">Food</string>
+    <string name="health_category">Health</string>
+    <string name="animals_category">Animals</string>
+    <string name="sports_category">Sports</string>
+    <string name="buildings_category">Buildings</string>
+    <string name="industry_category">Industry</string>
+    <string name="business_category">Business</string>
+    <string name="music_category">Music</string>
+    <string name="downloaded_images">Downloaded</string>
+    <string name="category_nav_drawer_open">Categories Drawer Open</string>
+    <string name="category_nav_drawer_close">Categories Drawer Close</string>
+    <string name="label_downloaded_images">Downloaded</string>
+    <string name="label_images_categories">Categories</string>
+
+
+    <!-- Pixabay API strings -->
+    <string name="pixabay_url">https://pixabay.com/</string>
+    <string name="pixabay_api_key">10688485-77ce504cf261ece34fe330fb9</string>
+
+    <!--String resources for font-->
+    <string name="google_fonts_api_key">AIzaSyDRoP60Rzw81qdcpwNUrbikdNaA3QR4wHY</string>
+
+    <string name="latin_font_preview" translatable="false">This is font.</string>
+    <string name="devanagari_font_preview" translatable="false">यह एक फ़ॉन्ट है।</string>
+    <string name="arabic_font_preview" translatable="false">هذا هو الخط.</string>
+    <string name="chinese_font_preview" translatable="false">这是一种字体。</string>
+    <string name="japanese_font_preview" translatable="false">これはフォントです。</string>
+    <string name="korean_font_preview" translatable="false">이것은 글꼴입니다.</string>
+    <string name="cyrillic_font_preview" translatable="false">это шрифт</string>
+    <string name="tamil_font_preview" translatable="false">இது ஒரு எழுத்துரு.</string>
+    <string name="telugu_font_preview" translatable="false">ఇది ఒక ఫాంట్.</string>
+    <string name="bengali_font_preview" translatable="false">এটি একটি ফন্ট।</string>
+
+    <string name="short_latin_font_preview" translatable="false">Font</string>
+    <string name="short_devanagari_font_preview" translatable="false">फ़ॉन्ट</string>
+    <string name="short_arabic_font_preview" translatable="false">الخط</string>
+    <string name="short_chinese_font_preview" translatable="false">字形</string>
+    <string name="short_japanese_font_preview" translatable="false">フォント</string>
+    <string name="short_korean_font_preview" translatable="false">세례반</string>
+    <string name="short_cyrillic_font_preview" translatable="false">шрифт</string>
+    <string name="short_tamil_font_preview" translatable="false">எழுத்துரு</string>
+    <string name="short_telugu_font_preview" translatable="false">ఫాంట్</string>
+    <string name="short_bengali_font_preview" translatable="false">ফন্ট</string>
+
+    <string name="font_loading">...</string>
+
+    <!-- Notification string utils -->
+    <string name="qod_notification_channel_name">Quote Of The Day</string>
+    <string name="notification_channel_description">See Quote of the Day</string>
+
+    <!-- QOD categories -->
+    <string name="qod_category_inspire">Inspire</string>
+    <string name="qod_category_management">Management</string>
+    <string name="qod_category_sports">Sports</string>
+    <string name="qod_category_life">Life</string>
+    <string name="qod_category_funny">Funny</string>
+    <string name="qod_category_art">Art</string>
+    <string name="qod_category_love">Love</string>
+    <string name="qod_category_students">Students</string>
+
+    <!-- Preferences string resources -->
+    <string name="pref_toolbar_title">Settings</string>
+    <string name="pref_show_qod_key" translatable="false">show_qod</string>
+    <string name="pref_show_qod_title">Quote Of The Day</string>
+    <string name="pref_show_qod_summary_on">Get Quote of The Day Notification Everyday!</string>
+    <string name="pref_show_qod_summary_off">Don\'t show Quote of The Day Notifications.</string>
+    <string name="pref_images_safesearch_key" translatable="false">images_safesearch</string>
+    <string name="pref_images_safesearch_title">Images SafeSearch</string>
+    <string name="pref_images_safesearch_summary_on">Get images suitable for all ages.</string>
+    <string name="pref_images_safesearch_summary_off">Get images without any restriction.</string>
+    <string name="pref_images_orientation_key">images_orientation</string>
+    <string name="pref_images_orientation_title">Images Orientation</string>
+    <string name="pref_images_orientation_summary">Orientation of downloadable images.</string>
+    <string name="pref_images_orientation_default">all</string>
+    <string name="pref_qod_category_key" translatable="false">qod_category</string>
+    <string name="pref_qod_category_title">Quote of the Day Categories</string>
+    <string name="pref_qod_category_summary">Choose categories for daily quotes.</string>
+    <string name="pref_last_notif_key" translatable="false">last_notification</string>
+    <string name="pref_save_shared_key" translatable="false">save_shared</string>
+    <string name="pref_save_shared_title">Always Save</string>
+    <string name="pref_save_shared_summary_on">Save shared images locally too.</string>
+    <string name="pref_save_shared_summary_off">Don\'t save shared images locally.</string>
+    <string name="pref_last_image_update_key" translatable="false">last_updated_images</string>
+    <string name="pref_recent_color_1_key" translatable="false">recent_color_1</string>
+    <string name="pref_recent_color_2_key" translatable="false">recent_color_2</string>
+    <string name="pref_recent_color_3_key" translatable="false">recent_color_3</string>
+
+    <!-- Wikipedia search -->
+    <string name="wiki_base_uri">https://en.wikipedia.org/wiki/</string>
+    <string name="wiki_package">org.wikipedia</string>
+
+    <!-- Quotes Fragment strings -->
+    <string name="empty_message_qod">Looks like you just started!\nHere you\'ll find your daily quotes listed.</string>
+    <string name="empty_message_user_quote">Like a quote from somewhere?\nAdd it here!</string>
+    <string name="add_quote">ADD</string>
+    <string name="cancel_add_quote">CANCEL</string>
+    <string name="label_fragment_add_quotes">ADD QUOTE</string>
+    <string name="pre_added_quote">The secret to getting ahead is getting started.</string>
+    <string name="pre_added_quote_author">Mark Twain</string>
+    <string name="pre_added_quote_category">inspire</string>
+
+    <string name="hint_quote_author">Author</string>
+    <string name="hint_quote_category">Category</string>
+    <string name="hint_quote">Quote</string>
+
+    <!-- Add text fragment strings -->
+    <string name="label_save_quote_checkbox">SAVE THIS QUOTE</string>
+
+    <!-- Search filters fragment strings -->
+    <!--<string name="label_images_search_filter">Filters</string>-->
+    <!--<string name="filter_editors_choice">Editor\'s Choice</string>-->
+    <!--<string name="filter_orientation">Orientation</string>-->
+    <!--<string name="filter_color">Color</string>-->
+    <!--<string name="filter_order">Order</string>-->
+    <!--<string name="default_image_orientation">All</string>-->
+    <!--<string name="default_image_color">All</string>-->
+    <!--<string name="default_images_order">Popular</string>-->
+    <!--<string name="search_button">Search</string>-->
+    <!--<string name="cancel_button">Cancel</string>-->
+
+    <!-- Large Image preview fragment strings -->
+    <string name="label_save_image">Save</string>
+    <string name="label_quote_image">Quote</string>
+
+    <!-- Designed Quotes Fragment -->
+    <string name="empty_message_quote_images">Your beautifully designed quote images will be here!</string>
+    <string name="label_delete_quote_image">Delete</string>
+    <string name="label_share_quote_image">Share</string>
+
+    <!--  Color Chooser Fragment -->
+    <string name="label_color_chooser_dialog">COLOR CHOOSER</string>
+    <string name="label_select_color">SELECT</string>
+    <string name="label_cancel_color_chooser_color">CANCEL</string>
+
+    <!-- Permissions explanation -->
+    <string name="explanation_saving_storage_permission">This app requires storage permissions to
+        save &amp; show images.</string>
+
+    <string name="explanation_save_share_storage_permission">This app requires storage permissions so that it
+    can save the image. You can turn off \"Always Save\" feature in settings, however, to avoid saving images before
+    sharing.</string>
+
+    <string name="explaination_open_settings">This app requires storage permissions so that it
+    can save &amp; show quotes designed by you into the storage.\nPlease grant storage permission in settings.</string>
+
+    <!-- About page -->
+    <string name="about_app_version_label">App Version</string>
+    <string name="about_third_parties_label">Third Parties</string>
+    <string name="app_version">Philosofy v%1$s</string>
+    <string name="about_license_header">The following software is used in this product: %1$s.\
+    This software contains following license and notice below:</string>
+
+    <string name="library_name_picasso">Picasso</string>
+    <string name="library_name_photoeditor">PhotoEditor</string>
+    <string name="library_name_skydoves">ColorPickerView</string>
+    <string name="library_name_photofilters">AndroidPhotoFilters</string>
+
+
+    <string name="license_picasso">
+        Copyright 2013 Square, Inc.\
+        \nLicensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at\
+            \n\thttp://www.apache.org/licenses/LICENSE-2.0\
+        \nUnless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    </string>
+
+    <string name="license_photoeditor">
+        Copyright © 2018 Burhanuddin Rashid\
+        \nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and
+        associated documentation files (the "Software"), to deal in the Software without restriction,
+        including without limitation the rights to use, copy, modify, merge, publish, distribute,
+        sublicense, and/or sell copies of the Software, and to permit persons to whom the Software
+        is furnished to do so, subject to the following conditions:\
+        \nThe above copyright notice and this permission notice shall be included in all copies or\
+        \nsubstantial portions of the Software.\
+        \nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+        NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+        DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    </string>
+
+    <string name="license_skydoves">
+        Copyright 2017 skydoves\
+        \nLicensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at\
+            \n\thttp://www.apache.org/licenses/LICENSE-2.0\
+        \nUnless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    </string>
+
+    <string name="license_photofilters_header">
+        The following software is used in this product: %1$s which is forked from another
+        library. Both software fall under following license:
+    </string>
+
+    <string name="license_photofilters">
+        Apache License\
+        Version 2.0, January 2004\
+        http://www.apache.org/licenses/\
+
+   \nTERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\
+
+   \n1. Definitions.
+
+      \"License\" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      \"Licensor\" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      \"Legal Entity\" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      \"control\" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.\
+
+      \n\"You\" (or \"Your\") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.\
+
+      \n\"Source\" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.\
+
+      \n\"Object\" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.\
+
+      \n\"Work\" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).\
+
+      \n\"Derivative Works\" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.\
+
+      \n\"Contribution\" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as \"Not a Contribution.\"
+
+      \"Contributor\" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.\
+
+   \n2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.\
+
+   \n3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.\
+
+   \n4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:\
+
+      \n(a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and\
+
+      \n(b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and\
+
+      \n(c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and\
+
+      \n(d) If the Work includes a \"NOTICE\" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.\
+
+      \nYou may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.\
+
+   \n5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.\
+
+   \n6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.\
+
+   \n7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an \"AS IS\" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.\
+
+   \n8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.\
+
+   \n9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.\
+
+   \nEND OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.\
+
+      \nTo apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets \"{}\"
+      replaced with your own identifying information. (Don\'t include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same \"printed page\" as the copyright notice for easier
+      identification within third-party archives.\
+
+   \nCopyright {yyyy} {name of copyright owner}\
+
+   \nLicensed under the Apache License, Version 2.0 (the \"License\");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at\
+
+       \nhttp://www.apache.org/licenses/LICENSE-2.0\
+
+   \nUnless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an \"AS IS\" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+    </string>
+
+    <!-- Help page strings -->
+    <string name="help_page_text">Thank you for installing Philosofy!\nFollowing are few points that may be helpful.</string>
+
+    <string name="help_write">You can write your quotes (&amp; save at the same time if you want to) by pressing
+    PEN icon, which will open a dialog for the purpose.</string>
+
+    <string name="help_selection">Note that text effects like text color, font, shadow etc. are applied to &amp;
+    only when a text is selected. Tap the text to select it. Double tap a misspelled text to edit it.</string>
+
+    <string name="help_fonts">Delete a font from editor screen by pressing &amp; holding that font. You can add any font
+    to editor from hundreds of fonts any time by pressing CART icon, to launch FONTS screen &amp; starring that
+    particular font. You can use fonts without adding it to editor screen, however, by simply pressing PEN or the sample font.</string>
+
+    <string name="help_colors">Though there are already material colors provided already you can choose a custom color by
+    simply pressing the color palette icon. The first three colors in the colors row are the most recent colors chosen
+    from this palette.</string>
+
+</resources>

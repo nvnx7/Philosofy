@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/filter_bottom_sheet"
+    android:layout_width="match_parent"
+    app:behavior_peekHeight="@dimen/bottom_sheet_peek_height"
+    app:behavior_hideable="true"
+    android:background="@drawable/backgrond_bottom_sheet_round"
+    app:layout_behavior="com.philosofy.nvn.philosofy.custom.NonSwipeableBottomSheetBehavior"
+    android:layout_height="216dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/filters_rv1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brightness_imageview"
+        tools:itemCount="4" />
+
+    <ImageView
+        android:id="@+id/brightness_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_brightness" />
+
+    <ImageView
+        android:id="@+id/blur_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/space"
+        app:layout_constraintTop_toTopOf="@+id/brightness_seekbar"
+        app:srcCompat="@drawable/ic_blur" />
+
+    <SeekBar
+        android:id="@+id/brightness_seekbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="200"
+        android:progress="100"
+        android:theme="@style/custom_control_theme"
+        app:layout_constraintBottom_toBottomOf="@+id/brightness_imageview"
+        app:layout_constraintEnd_toStartOf="@+id/space"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toEndOf="@+id/brightness_imageview"
+        app:layout_constraintTop_toTopOf="@+id/brightness_imageview" />
+
+    <SeekBar
+        android:id="@+id/blur_seekbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:theme="@style/custom_control_theme"
+        app:layout_constraintBottom_toBottomOf="@+id/blur_imageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/blur_imageview"
+        app:layout_constraintTop_toTopOf="@+id/blur_imageview" />
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="18dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/brightness_imageview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+
+        <SwitchPreference
+            android:id="@+id/safesearch_qod_switch"
+            android:defaultValue="@bool/images_safesearch_default"
+            android:icon="@drawable/ic_eye"
+            android:key="@string/pref_images_safesearch_key"
+            android:summaryOff="@string/pref_images_safesearch_summary_off"
+            android:summaryOn="@string/pref_images_safesearch_summary_on"
+            android:title="@string/pref_images_safesearch_title" />
+
+        <ListPreference
+            android:key="@string/pref_images_orientation_key"
+            android:title="@string/pref_images_orientation_title"
+            android:icon="@drawable/ic_image_orientation"
+            android:defaultValue="@string/pref_images_orientation_default"
+            android:entries="@array/image_orientation_entries"
+            android:entryValues="@array/image_orientation_entry_values"
+            android:summary="@string/pref_images_orientation_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+
+        <SwitchPreference
+            android:id="@+id/qod_switch"
+            android:defaultValue="@bool/qod_notif_by_default"
+            android:icon="@drawable/ic_notifications"
+            android:key="@string/pref_show_qod_key"
+            android:summaryOff="@string/pref_show_qod_summary_off"
+            android:summaryOn="@string/pref_show_qod_summary_on"
+            android:title="@string/pref_show_qod_title" />
+
+        <MultiSelectListPreference
+            android:defaultValue="@array/qod_categories_default_values"
+            android:dependency="@string/pref_show_qod_key"
+            android:entries="@array/qod_categories_entries"
+            android:entryValues="@array/qod_categories_entry_values"
+            android:icon="@drawable/ic_quote"
+            android:key="@string/pref_qod_category_key"
+            android:summary="@string/pref_qod_category_summary"
+            android:title="@string/pref_qod_category_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+
+        <SwitchPreference
+            android:defaultValue="@bool/save_shared_default"
+            android:icon="@drawable/ic_download"
+            android:key="@string/pref_save_shared_key"
+            android:summaryOff="@string/pref_save_shared_summary_off"
+            android:summaryOn="@string/pref_save_shared_summary_on"
+            android:title="@string/pref_save_shared_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
