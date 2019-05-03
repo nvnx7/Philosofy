@@ -73,8 +73,6 @@ public class DownloadableImagesActivity extends AppCompatActivity
     // Last page of images that was cached for currently selected category.
     private static int CURRENT_CATEGORY_LAST_PAGE = 0;
 
-    private AdView mImagesBannerAdView;
-
     private LinearLayout mNoInternetLayout;
     private TextView mImageFilterToolBarTitleTextView;
     private TextView mReloadDataTextView;
@@ -124,11 +122,6 @@ public class DownloadableImagesActivity extends AppCompatActivity
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         initiateViews();
-
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .build();
-        mImagesBannerAdView.loadAd(adRequest);
 
         mDb = AppDatabase.getInstance(this);
 
@@ -563,7 +556,6 @@ public class DownloadableImagesActivity extends AppCompatActivity
     }
 
     private void initiateViews() {
-        mImagesBannerAdView = findViewById(R.id.banner_adview_images);
         mLoadMoreProgressBar = findViewById(R.id.load_more_images_progress_bar);
         mCategoryDrawer = findViewById(R.id.drawer_layout);
         mCategoriesNavigationView = findViewById(R.id.nav_view_downloadable_images);
