@@ -31,8 +31,6 @@ public class DownloadableFontsActivity extends AppCompatActivity
     private TabLayout mLanguagesTabLayout;
     private ViewPager mLanguagesViewPager;
 
-    private AdView mFontsBannerAdView;
-
     private AppDatabase mDb;
 
     @Override
@@ -49,11 +47,6 @@ public class DownloadableFontsActivity extends AppCompatActivity
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setDisplayShowHomeEnabled(true);
         }
-
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .build();
-        mFontsBannerAdView.loadAd(adRequest);
 
         setSupportActionBar(mDownloadableFontsToolbar);
 
@@ -125,7 +118,6 @@ public class DownloadableFontsActivity extends AppCompatActivity
         mDownloadableFontsToolbar = findViewById(R.id.downloadable_fonts_toolbar);
         mLanguagesTabLayout = findViewById(R.id.language_tablayout);
         mLanguagesViewPager = findViewById(R.id.languages_viewpager);
-        mFontsBannerAdView = findViewById(R.id.banner_adview_fonts);
     }
 
 }
