@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity implements
     private static Uri CAMERA_PHOTO_URI = null;
 
     private Toolbar mMainToolbar;
-    private AdView mBannerAdView;
 
     private CardView mEditorCardView;
     private CardView mCameraCardView;
@@ -57,14 +56,7 @@ public class MainActivity extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MobileAds.initialize(this, getString(R.string.app_id_admob));
-
         initiateView();
-
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .build();
-        mBannerAdView.loadAd(adRequest);
 
         setSupportActionBar(mMainToolbar);
 
@@ -119,7 +111,6 @@ public class MainActivity extends AppCompatActivity implements
 
     private void initiateView() {
         mMainToolbar = findViewById(R.id.main_toolbar);
-        mBannerAdView = findViewById(R.id.banner_adview_main);
 
         mEditorCardView = findViewById(R.id.editor_cardview);
         mCameraCardView = findViewById(R.id.camera_cardview);
