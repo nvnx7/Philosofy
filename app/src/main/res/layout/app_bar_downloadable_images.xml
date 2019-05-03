@@ -60,12 +60,4 @@
 
     <include layout="@layout/content_downloadable_images" />
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/banner_adview_images"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/ad_id_downloadable_images_activity" />
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
