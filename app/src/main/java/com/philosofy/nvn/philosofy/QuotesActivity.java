@@ -49,7 +49,6 @@ public class QuotesActivity extends AppCompatActivity
     private static final String TAG = QuotesActivity.class.getSimpleName();
 
     private boolean isRequestedFromEditor = false;
-    private AdView mQuotesBannerAdView;
 
     private Toolbar mQuotesToolbar;
     private TabLayout mQuotesTabLayout;
@@ -134,11 +133,6 @@ public class QuotesActivity extends AppCompatActivity
             actionBar.setDisplayShowHomeEnabled(true);
         }
 
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .build();
-        mQuotesBannerAdView.loadAd(adRequest);
-
         handleIntent();
 
         mDb = AppDatabase.getInstance(this);
@@ -194,7 +188,6 @@ public class QuotesActivity extends AppCompatActivity
     }
 
     private void initiateViews() {
-        mQuotesBannerAdView = findViewById(R.id.banner_adview_quotes);
         mQuotesToolbar = findViewById(R.id.quotes_toolbar);
         mQuotesTabLayout = findViewById(R.id.quotes_tablayout);
         mQuotesViewPager = findViewById(R.id.quotes_viewpager);
