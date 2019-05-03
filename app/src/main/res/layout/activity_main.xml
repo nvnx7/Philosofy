@@ -229,24 +229,14 @@
 
     </androidx.cardview.widget.CardView>
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/banner_adview_main"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/ad_id_main_activity"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <ImageView
         android:id="@+id/settings_imageview"
         android:layout_width="@dimen/icons_width"
         android:layout_height="@dimen/icons_height"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="42dp"
         ads:srcCompat="@drawable/ic_settings"
-        app:layout_constraintBottom_toTopOf="@+id/banner_adview_main"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
@@ -254,10 +244,9 @@
         android:layout_width="@dimen/icons_width"
         android:layout_height="@dimen/icons_height"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
         ads:srcCompat="@drawable/ic_share"
-        app:layout_constraintBottom_toTopOf="@+id/banner_adview_main"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/settings_imageview" />
 
     <ImageView
         android:id="@+id/help_imageview"
