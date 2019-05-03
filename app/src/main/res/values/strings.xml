@@ -23,21 +23,6 @@
     <string name="action_help">Help</string>
     <string name="action_settings">Settings</string>
 
-    <!-- Ad related  strings -->
-
-    <string name="app_id_admob">ca-app-pub-7081714491564041~3997296398</string>
-    <string name="ad_id_main_activity">ca-app-pub-7081714491564041/3857695597</string>
-    <string name="ad_id_quotes_activity">ca-app-pub-7081714491564041/1956869684</string>
-    <string name="ad_id_downloadable_fonts_activity">ca-app-pub-7081714491564041/8713849720</string>
-    <string name="ad_id_downloadable_images_activity">ca-app-pub-7081714491564041/9480136487</string>
-
-    <!-- For Testing -->
-    <!--<string name="app_id_admob">ca-app-pub-3940256099942544~3347511713</string>-->
-    <!--<string name="ad_id_main_activity">ca-app-pub-3940256099942544/6300978111</string>-->
-    <!--<string name="ad_id_quotes_activity">ca-app-pub-3940256099942544/6300978111</string>-->
-    <!--<string name="ad_id_downloadable_fonts_activity">ca-app-pub-3940256099942544/6300978111</string>-->
-    <!--<string name="ad_id_downloadable_images_activity">ca-app-pub-3940256099942544/6300978111</string>-->
-
     <!-- Tools name strings -->
     <string name="text_tool_name">Text</string>
     <string name="image_tool_name">Image</string>
@@ -88,10 +73,7 @@
 
     <!-- Pixabay API strings -->
     <string name="pixabay_url">https://pixabay.com/</string>
-    <string name="pixabay_api_key">10688485-77ce504cf261ece34fe330fb9</string>
-
-    <!--String resources for font-->
-    <string name="google_fonts_api_key">AIzaSyDRoP60Rzw81qdcpwNUrbikdNaA3QR4wHY</string>
+    <string name="pixabay_api_key">YOUR_PIXABAY_API_KEY</string>
 
     <string name="latin_font_preview" translatable="false">This is font.</string>
     <string name="devanagari_font_preview" translatable="false">यह एक फ़ॉन्ट है।</string>
