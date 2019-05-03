@@ -103,12 +103,4 @@
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/banner_adview_quotes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|bottom"
-        android:layout_weight="0"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/ad_id_quotes_activity" />
 </LinearLayout>
